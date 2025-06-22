@@ -1,0 +1,29 @@
+﻿@page "/libros"
+@inject ILibroService LibroService
+
+<h3>Libros Disponibles</h3>
+
+<div class="row">
+    @foreach (var libro in libros)
+    {
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <img src="@libro.Imagen" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">@libro.Titulo</h5>
+                    <p class="card-text">Autor: @libro.Autor</p>
+                    <p class="card-text"><small class="text-muted">Publicado en @libro.AñoPublicacion</small></p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Libro> libros = new();
+
+    protected override void OnInitialized()
+    {
+        libros = LibroService.ObtenerTodos();
+    }
+}

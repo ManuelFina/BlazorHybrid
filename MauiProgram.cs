@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using TrabajoPracticoTres.Services.Implementaciones;
+using TrabajoPracticoTres.Services.Interfaces;
 
 namespace TrabajoPracticoTres
 {
@@ -15,9 +17,11 @@ namespace TrabajoPracticoTres
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddSingleton<ILibroService, LibroService>();
+            builder.Services.AddSingleton<IUsuarioService, UsuarioService>();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
 
