@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabajoPracticoTres", "TrabajoPracticoTres.csproj", "{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AD1C9E-613D-4069-B6DD-7A2F8C598AEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A8CCEB0-E32E-4210-840F-CB5DA49BF251}
+	EndGlobalSection
+EndGlobal
