@@ -15,7 +15,7 @@
     private void IniciarSesion()
     {
         var user = UsuarioService.ObtenerPorCredenciales(email, clave);
-        if (user != null)
-            Nav.NavigateTo("/libros");
+
+        if (user != null) Nav.NavigateTo("/menu");
     }
 }
